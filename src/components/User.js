@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from "prop-types";
 
 function User({data ,friends}) {
   return (
@@ -15,5 +16,12 @@ function User({data ,friends}) {
     </div>
   )
 }
-
+User.PropTypes = {
+  data : PropTypes.exact({
+    name : PropTypes.string,
+    city : PropTypes.string,
+    age : PropTypes.number,
+  }),  
+friends: PropTypes.array
+}
 export default User;
