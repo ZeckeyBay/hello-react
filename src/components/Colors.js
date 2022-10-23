@@ -7,11 +7,11 @@ function Colors(){
     }
     return(
         <div>
-        <h1>Renkler</h1>
+        <h1>Colors</h1>
         {colors.map((color,i)=> (
         <div key={i}>{color}</div>
         ))}
-        <button onClick={handleClick}>Ekle</button>
+        <button onClick={handleClick}>Add</button>
         </div>
     )
 }
