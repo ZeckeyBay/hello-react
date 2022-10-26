@@ -1,4 +1,4 @@
-This repo includes projects that are part of Turcell's React 101 course
+This repo is about Turcell's React 101 course.
 
 # Getting Started with Create React App
 
