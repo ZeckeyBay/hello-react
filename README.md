@@ -1,6 +1,6 @@
 This repo is about Turcell's React 101 course.
 
-# Link : hello-react-course.netlify.app
+# Link : https://hello-react-course.netlify.app
 
 # Getting Started with Create React App
 
